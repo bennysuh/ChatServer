@@ -1,0 +1,643 @@
+2016-01-19 14:02:28 Workerman[start.php] start.php 
+2016-01-19 14:02:28 Workerman[start.php] not run
+2016-01-19 14:02:34 Workerman[start.php] start.php 
+2016-01-19 14:02:34 Workerman[start.php] not run
+2016-01-19 14:02:48 Workerman[start.php] start in DEBUG mode
+2016-01-19 17:28:37 client_id:7f00000108fe0000003b	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:28:48 client_id:7f00000108ff00000048	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:29:30 client_id:7f00000108ff00000049	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:30:25 client_id:7f00000108fc0000003a	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:31:15 client_id:7f00000108ff0000004a	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:31:27 client_id:7f00000108ff0000004b	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:32:12 client_id:7f00000108fe0000003c	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:34:03 client_id:7f00000108fe0000003d	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:34:34 client_id:7f00000108fc0000003b	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:39:57 client_id:7f00000108fe0000003e	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:41:46 client_id:7f00000108fd00000037	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:42:13 client_id:7f00000108ff0000004c	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:42:17 client_id:7f00000108ff0000004d	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:49:28 client_id:7f00000108ff0000004e	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:49:37 client_id:7f00000108fd00000038	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:52:25 client_id:7f00000108fc0000003c	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"d[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:54:16 client_id:7f00000108ff0000004f	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:54:32 client_id:7f00000108ff00000050	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"s[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:55:17 client_id:7f00000108fe0000003f	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 17:55:22 client_id:7f00000108ff00000051	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:00:45 client_id:7f00000108fc0000003d	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:01:06 client_id:7f00000108ff00000052	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:02:08 client_id:7f00000108ff00000053	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:03:15 client_id:7f00000108fd00000039	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:03:46 client_id:7f00000108fe00000040	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"a[游客]"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:08:14 client_id:7f00000108ff00000054	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":""}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:08:29 client_id:7f00000108ff00000055	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:10:34 client_id:7f00000108ff00000056	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:11:56 client_id:7f00000108ff00000057	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:12:08 client_id:7f00000108ff00000058	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:12:43 client_id:7f00000108ff00000059	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:13:19 Workerman[start.php] Stopping ...
+2016-01-19 18:13:19 Workerman[start.php] has been stopped
+2016-01-19 18:13:20 Workerman[start.php] start in DEBUG mode
+2016-01-19 18:13:20 client_id:7f00000108fc00000006	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fc000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:13:20 client_id:7f00000108fd00000006	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:14:13 client_id:7f00000108fd00000007	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #57, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:14:57 client_id:7f00000108ff00000006	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:15:08 client_id:7f00000108ff00000006	client_ip:3232274051
+exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.150.131' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:85
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108ff000...', '{"type":"say","...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:16:01 client_id:7f00000108fe00000006	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:16:09 client_id:7f00000108fd00000008	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":""}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:16:13 client_id:7f00000108fe00000007	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":""}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fe000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:16:38 client_id:7f00000108fd00000009	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":""}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #57, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:18:19 client_id:7f00000108fd0000000a	client_ip:3232274051
+exception 'Exception' with message '$message_data['room_id'] not set. client_ip:192.168.150.131 $message:{"type":"login","client_name":"root"}' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:53
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"login"...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 18:18:32 client_id:7f00000108fd0000000a	client_ip:3232274051
+exception 'Exception' with message '$_SESSION['room_id'] not set. client_ip:192.168.150.131' in /home/swool/Documents/workerman-chat/Applications/Chat/Event.php:85
+Stack trace:
+#0 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(241): Event::onMessage('7f00000108fd000...', '{"type":"say","...')
+#1 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#2 /home/swool/Documents/workerman-chat/Workerman/Connection/TcpConnection.php(451): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59, 2, NULL)
+#4 /home/swool/Documents/workerman-chat/Workerman/Events/Libevent.php(216): event_base_loop(Resource id #34)
+#5 /home/swool/Documents/workerman-chat/Workerman/Worker.php(1399): Workerman\Events\Libevent->loop()
+#6 /home/swool/Documents/workerman-chat/GatewayWorker/BusinessWorker.php(104): Workerman\Worker->run()
+#7 /home/swool/Documents/workerman-chat/Workerman/Worker.php(839): GatewayWorker\BusinessWorker->run()
+#8 /home/swool/Documents/workerman-chat/Workerman/Worker.php(799): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#9 /home/swool/Documents/workerman-chat/Workerman/Worker.php(354): Workerman\Worker::forkWorkers()
+#10 /home/swool/Documents/workerman-chat/start.php(37): Workerman\Worker::runAll()
+#11 {main}
+2016-01-19 20:44:45 Workerman[start.php] Stopping ...
+2016-01-19 20:44:45 Workerman[start.php] has been stopped
+2016-01-20 09:18:46 Workerman[start.php] start in DEBUG mode
+2016-01-20 10:01:46 Workerman[start.php] Stopping ...
+2016-01-20 10:01:46 Workerman[start.php] has been stopped
